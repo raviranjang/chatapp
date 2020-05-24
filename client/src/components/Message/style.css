@@ -1,0 +1,184 @@
+.container {
+    height: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+    max-width: 100%;
+}
+
+.row {
+    height: 100%;
+}
+
+.navbar-brand {
+    height: 20px;
+    padding: 5px;
+    align-items: center;
+    margin: auto 0;
+    font-size: 12px;
+}
+
+.nav1 {
+    background: #2d323c;
+   
+}
+
+.nav2 {
+    background: #383e4b ;
+   position: sticky;
+   top: 0 !important;
+}
+
+.sectnbrdr {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 1px solid #b3b3b3;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.table {
+    font-size: 8px;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+/* CSS talk bubble */
+.talk-bubble {
+	margin: 40px;
+  display: inline-block;
+  position: relative;
+	width: 200px;
+	height: auto;
+	background-color: lightyellow;
+}
+
+
+/* Right triangle placed top left flush. */
+.tri-right.border.left-top:before {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: -40px;
+	right: auto;
+  top: -8px;
+	bottom: auto;
+	border: 32px solid;
+	border-color: #666 transparent transparent transparent;
+}
+.tri-right.left-top:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: -20px;
+	right: auto;
+  top: 0px;
+	bottom: auto;
+	border: 22px solid;
+	border-color: lightyellow transparent transparent transparent;
+}
+
+
+
+/* talk bubble contents */
+.talktext{
+  padding: 1em;
+	text-align: left;
+  line-height: 1.5em;
+}
+.talktext p{
+  /* remove webkit p margins */
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
+
+.chat-section {
+    font-size: 8px;
+    color: #333333;
+    float: right;
+    margin: 5px;
+    width: 55%;
+}
+
+
+.chat-message {
+    border: 1px solid #b3b3b3;
+    border-radius: 0.5px;
+    background: #1b75bb;
+    padding: 2px;
+    border-radius: 5px 0 5px 5px;
+}
+
+.chat-message-bot {
+    color: black !important;
+    border: 1px solid #b3b3b3;
+    border-radius: 0.5px;
+    padding: 2px;
+    border-radius: 5px 0 5px 5px;
+}
+
+.msg {
+    margin: 0 !important;
+}
+
+.bot-chat {
+    color: #e2e2e2;
+    float: left !important;
+    background: #e2e2e2; 
+    right: 0;
+}
+
+.btn-group-vertical {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.btn:hover {
+    background: #1b75bb !important;
+}
+
+.icon-custom {
+    margin-right: 10px;
+    /* line-height: 20px; */
+    vertical-align: center;
+    background-size: cover;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+}
+
+.intent-icon {
+    background: url('../../assets/intent-icon.svg')no-repeat left center;
+}
+
+.tb5-icon {
+    background: url('../../assets/stop-red-icon.svg')no-repeat left center;
+}
+
+.entity-icon {
+    background: url('../../assets/entity-icon.svg')no-repeat left center;
+}
+
+.training-icon {
+    background: url('../../assets/training-icon.svg')no-repeat left center;
+}
+
+p {
+    margin: 2px 0;
+    padding: 0;
+}
